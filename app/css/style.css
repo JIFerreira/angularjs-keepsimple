@@ -1,0 +1,541 @@
+/* Variables */
+/*Mixins*/
+/*
+    ALERTS
+*/
+.alert-info-show {
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  width: 70%;
+  height: 30px;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  float: left; }
+
+.alert-info-hide {
+  display: none; }
+
+/*
+    MAIN
+*/
+.container {
+  margin: 0;
+  float: left; }
+
+/*
+    BODY -- MAIN
+*/
+.container-content {
+  width: 700px;
+  margin: 30px auto;
+  padding: 20px 15px;
+  background-color: #f2f2f2;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  float: left; }
+
+.container-login {
+  margin: 0 auto;
+  text-align: center; }
+  .container-login h1 {
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, Sans-Serif; }
+  .container-login fieldset {
+    padding: 0 20px;
+    margin: 20px 0;
+    float: left; }
+    .container-login fieldset .input-email-login,
+    .container-login fieldset .input-password-login {
+      width: 76%;
+      height: 45px;
+      vertical-align: middle;
+      display: table-cell;
+      margin: 20px 0;
+      font-size: 20px;
+      padding-left: 9px;
+      border: none; }
+    .container-login fieldset .button-confirm-login {
+      width: 80%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      background-color: #018047;
+      color: #fff; }
+    .container-login fieldset .button-redirect-register {
+      width: 80%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      margin-top: 20px;
+      background-color: #7a0009;
+      color: #fff; }
+
+.container-register {
+  margin: 0 auto;
+  text-align: center; }
+  .container-register h1 {
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, Sans-Serif; }
+  .container-register fieldset {
+    padding: 0 20px;
+    margin: 20px 0;
+    float: left; }
+    .container-register fieldset .input-nome-register,
+    .container-register fieldset .input-email-register,
+    .container-register fieldset .input-password-register {
+      width: 76%;
+      height: 45px;
+      vertical-align: middle;
+      display: table-cell;
+      margin: 20px 0;
+      font-size: 20px;
+      padding-left: 9px;
+      border: none; }
+    .container-register fieldset .button-confirm-register {
+      width: 80%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      background-color: #018047;
+      color: #fff; }
+
+.container-alter-details {
+  margin: 0 auto;
+  text-align: center; }
+  .container-alter-details h1 {
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, Sans-Serif; }
+  .container-alter-details fieldset {
+    padding: 0 20px;
+    margin: 20px 0;
+    float: left; }
+    .container-alter-details fieldset .container-input {
+      width: 100%;
+      float: left;
+      vertical-align: middle;
+      display: table-cell;
+      margin: 20px 0;
+      font-size: 20px;
+      padding-left: 9px; }
+      .container-alter-details fieldset .container-input label {
+        font-size: .9rem; }
+      .container-alter-details fieldset .container-input .input-of-name {
+        width: 70%;
+        height: 45px;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px;
+        border: none; }
+    .container-alter-details fieldset .container-input {
+      width: 100%;
+      float: left;
+      vertical-align: middle;
+      display: table-cell;
+      margin: 20px 0;
+      font-size: 20px;
+      padding-left: 9px; }
+      .container-alter-details fieldset .container-input .input-of-email {
+        width: 70%;
+        height: 45px;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px;
+        border: none; }
+    .container-alter-details fieldset .container-input {
+      width: 100%;
+      float: left;
+      vertical-align: middle;
+      display: table-cell;
+      margin: 20px 0;
+      font-size: 20px;
+      padding-left: 9px; }
+      .container-alter-details fieldset .container-input .input-of-password {
+        width: 68%;
+        height: 45px;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px;
+        border: none; }
+    .container-alter-details fieldset .button-alter-data {
+      width: 20%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      background-color: #018047;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      margin-right: 5px; }
+    .container-alter-details fieldset .button-delete-user {
+      width: 20%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      background-color: #C02727;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      margin-right: 5px; }
+    .container-alter-details fieldset .button-confirm-exit {
+      width: 20%;
+      vertical-align: middle;
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateX(-50%);
+      float: left;
+      text-decoration: none;
+      padding: 16px 0;
+      border-radius: 4px;
+      background-color: #ffec40;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      margin-right: 5px; }
+    .container-alter-details fieldset .input-checkbox {
+      width: 23px;
+      height: 23px; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-content {
+    width: 700px;
+    margin: 30px auto;
+    padding: 20px 15px;
+    background-color: #f2f2f2;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left; }
+
+  .container-alter-details {
+    margin: 0 auto;
+    text-align: center; }
+    .container-alter-details h1 {
+      margin: 10px;
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, Sans-Serif; }
+    .container-alter-details fieldset {
+      padding: 0 20px;
+      margin: 20px 0;
+      float: left; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input .input-of-name {
+          width: 70%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input .input-of-email {
+          width: 70%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input .input-of-password {
+          width: 68%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .button-alter-data {
+        width: 20%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #018047;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px; }
+      .container-alter-details fieldset .button-delete-user {
+        width: 20%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #C02727;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px; }
+      .container-alter-details fieldset .button-confirm-exit {
+        width: 20%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #ffec40;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px; }
+      .container-alter-details fieldset .input-checkbox {
+        width: 23px;
+        height: 23px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .container-content {
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px 15px;
+    background-color: #f2f2f2;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left; }
+
+  .container-alter-details {
+    margin: 0 auto;
+    text-align: center; }
+    .container-alter-details h1 {
+      margin: 10px;
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, Sans-Serif; }
+    .container-alter-details fieldset {
+      padding: 0 20px;
+      margin: 20px 0;
+      float: left; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input label {
+          font-size: .9rem;
+          text-align: left; }
+        .container-alter-details fieldset .container-input .input-of-name {
+          width: 70%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input .input-of-email {
+          width: 70%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .container-input {
+        width: 100%;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 20px 0;
+        font-size: 20px;
+        padding-left: 9px; }
+        .container-alter-details fieldset .container-input .input-of-password {
+          width: 68%;
+          height: 45px;
+          vertical-align: middle;
+          display: table-cell;
+          margin: 20px 0;
+          font-size: 20px;
+          padding-left: 9px;
+          border: none; }
+      .container-alter-details fieldset .button-alter-data {
+        width: 100%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #018047;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px;
+        margin-bottom: 15px; }
+      .container-alter-details fieldset .button-delete-user {
+        width: 100%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #C02727;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px;
+        margin-bottom: 15px; }
+      .container-alter-details fieldset .button-confirm-exit {
+        width: 100%;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateX(-50%);
+        float: left;
+        text-decoration: none;
+        padding: 16px 0;
+        border-radius: 4px;
+        background-color: #ffec40;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        margin-right: 5px; }
+      .container-alter-details fieldset .input-checkbox {
+        width: 23px;
+        height: 23px; } }

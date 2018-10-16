@@ -1,0 +1,23 @@
+{
+  "name": "teste-keepSimple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finacio/teste-keepSimple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Finacio/teste-keepSimple/issues"
+  },
+  "homepage": "https://github.com/Finacio/teste-keepSimple#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-watch-sass": "^1.2.4"
+  }
+}
